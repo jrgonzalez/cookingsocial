@@ -1,4 +1,18 @@
 Cookingsocial::Application.routes.draw do
+  get "home/index"
+
+  get "home/show"
+
+  get "home/new"
+
+  get "home/create"
+
+  get "home/edit"
+
+  get "home/update"
+
+  get "home/destroy"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +62,7 @@ Cookingsocial::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+    root :to => 'home#index'
 
   # See how all your routes lay out with "rake routes"
 
