@@ -46,6 +46,7 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    haml (3.1.7)
     hike (1.2.1)
     i18n (0.6.1)
     journey (1.0.4)
@@ -114,7 +115,11 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+<<<<<<< HEAD
+  haml
+=======
   devise
+>>>>>>> 57043886988fc7b7aa2db76f4743fdb2753fd2ba
   jquery-rails
   pg
   rails (= 3.2.7)
