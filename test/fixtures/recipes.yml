@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyString
+  preparation: MyString
+  owner: 1
+  visibility: MyString
+
+two:
+  name: MyString
+  description: MyString
+  preparation: MyString
+  owner: 1
+  visibility: MyString
