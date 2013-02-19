@@ -9,9 +9,9 @@
 						.row
 							.7u
 								%h2
-									Hi. This is Verti.
+									Find all the recipes!
 								%p
-									It's a free responsive HTML5 site template by HTML5 Up!
+									This is the world of cooking!
 							.5u
 								%ul
 									%li
@@ -20,3 +20,46 @@
 									%li
 										%a{:href => "#", :class => "button button-alt button-big button-icon button-icon-question"}
 											More info
+				//Features Wrapper
+				#features-wrapper
+					.5grid-layout
+						.row
+							.4u
+								//Box
+								%section{:class => "box box-feature"}
+									%a{:href => "#", :class => "image image-full"}
+										= image_tag "recipe-day.jpg"
+									.inner
+										%header
+											%h2
+												Recipe of the Day
+											%span{:class => "byline"}
+												Chinese Pepper Steak Recipe
+										%p
+											Tonight was pretty much filled with excitement. Not only is this the opening post of Blog Chef and the first of our Free Online Recipes, but it has also given me the opportunity to unleash my new Wok.
+							.4u
+								//Box
+								%section{:class => "box box-feature"}
+									%a{:href =>"#", :class => "image image-full"}
+										= image_tag "best-recipe.jpg"
+									.inner
+										%header
+											%h2
+												The Best Recipe
+											%span{:class => "byline"}
+												Slow-Cooker Mac and Cheese
+										%p
+											This recipe has a great creamy, cheesy consistency with a lovely crunch on the top, and the taste is just delish! I enjoyed the addition of onion a lot and will add even more next time.
+							.4u
+								//Box
+								%section{:class => "box box-feature last"}
+									%a{:href => "#", :class => "image image-full"}
+										= image_tag "cook-day.jpg"
+									.inner
+										%header
+											%h2
+												Cook of the Week
+											%span{:class => "byline"}
+												Mary-Brown34
+										%p
+											"I am of Puerto Rican heritage," says this Brooklyn born cook, "so my favorite cooking tradition is to make pernil (roast pork) and arroz con gandules."

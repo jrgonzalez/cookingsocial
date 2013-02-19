@@ -1,10 +1,7 @@
 Cookingsocial::Application.routes.draw do
-<<<<<<< HEAD
-  resources :recipes
-=======
 
-  
->>>>>>> e4bebf7d0af121001cdbd9362487f07151ca8972
+  resources :recipes
+
 
   devise_for :users
 
