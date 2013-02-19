@@ -115,11 +115,8 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-<<<<<<< HEAD
-  haml
-=======
   devise
->>>>>>> 57043886988fc7b7aa2db76f4743fdb2753fd2ba
+  haml
   jquery-rails
   pg
   rails (= 3.2.7)
